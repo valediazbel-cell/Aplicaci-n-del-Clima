@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Aplicación del Clima</title>
+
+    <link
+        rel="stylesheet"
+        href="css/styles.css"
+    >
+
+</head>
+
+
+<body>
+
+    <main>
+
+    <h1>🌤️ ¿Cómo está el tiempo?</h1>
+
+    <label for="cityInput">
+        Escribe una o varias ciudades:
+    </label>
+
+    <input
+        type="text"
+        id="cityInput"
+        placeholder="Ejemplo: Bogotá, Medellín, Tokyo"
+    >
+
+    <button id="searchButton">
+        Buscar clima
+    </button>
+
+
+    <div id="weatherResult">
+        Escribe una ciudad para consultar el clima.
+    </div>
+
+
+    <div id="citiesContainer"></div>
+
+</main>
+
+    <script
+        type="module"
+        src="js/app.js"
+    ></script>
+
+</body>
+
+</html>
+
