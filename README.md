@@ -32,7 +32,7 @@ La aplicación muestra la información de una forma sencilla y amigable, incluye
 
 ## 📁 Estructura del proyecto
 
-
+```text
 app-clima/
 │
 ├── index.html
@@ -46,7 +46,7 @@ app-clima/
 │   └── ui.js
 │
 └── README.md
-
+```
 
 ### Descripción de los archivos
 
